@@ -7,10 +7,10 @@ import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { FaDev } from 'react-icons/fa';
  
 function SideMenu() {
-  const { isOpen, openMobleMenu } = useMenuStore();
+  const { isOpen, closeMobileMenu } = useMenuStore();
   const [activeLink, setActiveLink] = useState(sideMenuLinks[0]);
   const handleLinkClick = (link) => {
-    openMobleMenu();
+    closeMobileMenu();
     setActiveLink(link);
   };
  

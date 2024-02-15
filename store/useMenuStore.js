@@ -4,5 +4,5 @@ export const useMenuStore = create((set) => ({
   isOpen: false,
   openMobleMenu: () => {
     set((state) => ({ isOpen: !state.isOpen }))},
-  closeMobleMenu: () => set({ isOpen: false }),
+  closeMobileMenu: () => set({ isOpen: false }),
 }));

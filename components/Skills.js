@@ -48,15 +48,6 @@ function Skills() {
           </div>
           <div className="flex flex-col items-center bg-whitesmoke p-8 rounded-md text-center shadow-sm justify-center">
             <img
-              src="/assets/java.png"
-              height={100}
-              weight={100}
-              className="mb-2"
-            />
-            <span>Java</span>
-          </div>
-          <div className="flex flex-col items-center bg-whitesmoke p-8 rounded-md text-center shadow-sm justify-center">
-            <img
               src="/assets/docker.png"
               height={100}
               weight={100}
