@@ -15,7 +15,7 @@ function Projects() {
 
   return (
     <section
-      className="w-full bg-white h-fit px-[40px] py-[10px] max-xs:px-[20px] relative"
+      className="w-full bg-white h-fit px-[40px] py-[10px] max-xs:px-[20px] relative mb-20"
       id="projects"
     >
       <div className="max-w-7xl mx-auto">

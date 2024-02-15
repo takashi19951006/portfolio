@@ -5,7 +5,7 @@ function Skills() {
   return (
     <section
       className="w-full h-fit px-[40px] py-10 max-xs:@x-[20px] relative bg-white"
-      id="sk"
+      id="skills"
     >
       <div className="max-w-7xl mx-auto">
         {/*セクションタイトル */}

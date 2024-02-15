@@ -9,8 +9,8 @@ const m_PLUS_1p = M_PLUS_1p({
 });
 
 export const metadata = {
-  title: "ORIGIN.Doc",
-  description: "ORIGIN.Docのポートフォリオサイト",
+  title: "ポートフォリオ",
+  description: "藤木崇史のポートフォリオサイト",
 };
 
 export default function RootLayout({ children }) {
